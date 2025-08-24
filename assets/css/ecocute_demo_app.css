@@ -1,0 +1,81 @@
+@import url('demo_app.css');
+/* =================================
+  * ecocute_demo_app.css
+  * 給湯機アプリ用デモアプリ カスタマイズ
+  * 
+  * @version 1.0.0
+  * @date 2025-07-16
+  * @author MEE yamada
+================================= */
+
+#bathAutoStatus {
+  z-index: 5;
+}
+
+.btn {
+  user-select: none; /* テキスト選択防止 */
+}
+
+#nextBtn {
+  z-index: 1000;
+}
+
+.driver-overlay.driver-overlay-animated {
+  /* display: none; */
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* =================================
+  * ecocute_demo_app.css
+  * Swiper カスタマイズ
+  * 
+  * @version 1.0.0
+  * @date 2025-07-16
+  * @author MEE yamada
+================================= */
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: #ccc;
+  opacity: 0.5;
+  padding: 0.5em;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  color: white;
+}
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+  display: none;
+}
+
+.swiper-pagination {
+  font-size: 1.25em;
+}
+
+.swiper-pagination-fraction {
+  color: red !important;
+}
+
+.swiper-pagination-current,
+.swiper-pagination-total {
+  color: red;
+}
+
+.slide-img {
+  height: 667px;
+  display: flex;
+  align-items: start;
+  overflow-y: auto;
+}
+
+/* .active-custom {
+    height: 667px;
+  display: flex;
+  align-items: start;
+  overflow-y: auto;
+} */
+
+.swiper-slide{
+  height: 667px;
+}

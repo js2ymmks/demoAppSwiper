@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* =================================
+  * demo_app.css
+  * デモアプリのスタイルシート
+  * 
+  * @version 1.0.0
+  * @date 2025-07-16
+  * @author MEE yamada
+================================= */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* .d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+} */
+
+.demo_app_wrap {
+  max-width: 375px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* .demo_app_wrap__wrap__main {
+  display: flex;
+} */
+
+.demo_app_wrap__main {
+  max-width: 375px;
+  width: 100%;
+}
+
+/* .demo_app_wrap__header,
+.demo_app_wrap__footer,
+.demo_app_wrap__fixed_txt {
+  max-width: 375px;
+  width: 100%;
+  position: fixed;
+} */
+
+/* .demo_app_wrap__header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+} */
+
+.demo_app_wrap__main {
+  position: absolute;
+}
+
+/* .demo_app_wrap__footer {
+  position: fixed;
+  bottom: 0;
+  vertical-align: bottom;
+  z-index: 10;
+} */
+
+/* .demo_app_wrap__fixed_txt {
+  top: 5px;
+  z-index: 100;
+  text-align: center;
+  padding: 0 30px;
+  box-sizing: border-box;
+  font-family: "メイリオ", "ヒラギノ角ゴ Pro W3", "Lucida Grande", "Hiragino Kaku Gothic Pro", Osaka, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+} */
+
+/* .demo_app_wrap__fixed_txt_inr {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  color: #fff;
+  width: calc(100% - 60px);
+  padding: 6px;
+  font-size: 14px;
+  background: #DD8F74;
+  border-radius: 8px;
+  line-height: 1;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+} */
+
+/* @media screen and (max-width: 375px) {
+  .demo_app_wrap__fixed_txt_inr {
+    padding: 6px 5px;
+    font-size: 3.733vw;
+  }
+} */
+
+
+/* .demo_app_wrap__header img,
+.demo_app_wrap__footer img, */
+.demo_app_wrap__main img {
+  width: 100%;
+  height: auto;
+}
+
+/* ====================================
+   ウインドウの高さによるスタイル調整
+   ==================================== */
+
+/* ウインドウの高さが668px以上の場合 */
+/* @media (min-height: 668px) {
+  .demo_app_wrap__footer {
+    top: 608px !important;
+    bottom: auto !important;
+  }
+} */
+
+/* ウインドウの高さが968px以上の場合 */
+/* @media (min-height: 968px) {
+  .demo_app_wrap__footer {
+    top: 897px !important;
+    bottom: auto !important;
+  }
+} */
+
+
